@@ -16,12 +16,12 @@ class Hobbit {
     }
   }
   getRing() {
-    if(this.name !== 'Frodo') {
-      return "You can't have it!"
+    if(this.name !== "Frodo") {
       this.hasRing = false
+      return "You can't have it!"
     } else {
-      return "Here is the ring!"
       this.hasRing = true
+      return "Here is the ring!"
     }
   }
 }
